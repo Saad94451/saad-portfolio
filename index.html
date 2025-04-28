@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Website</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/testimonials/icon.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: iPortfolio
+  * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
+  * Updated: Jun 29 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header dark-background d-flex flex-column">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
+
+    <div class="profile-img">
+      <img src="assets/img/testimonials/icon.jpg" alt="" class="img-fluid rounded-circle">
+    </div>
+
+    <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <!-- <img src="assets/img/logo.png" alt=""> -->
+      <h1 class="sitename">Saad Ahmed</h1>
+    </a>
+
+    <div class="social-links text-center">
+      <a href="#" class="twitter" target="_blank"><i class="bi bi-twitter-x"></i></a>
+      <a href="https://www.facebook.com/A.S Web & Software" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
+      <a href="https://www.instagram.com/asdevelopers22/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="#" class="google-plus"><i class="bi bi-skype" target="_blank"></i></a>
+      <a href="https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFC1vjMr_6u3QAAAZZ9A16YcLy1NQtL8QDzyEDp4IToMK2bnC3Dn4IYu2sa9L4vCT6xkCLpVAXQyHocD6TZ6Mn5lsZGIr6mLrd91AzE3sNf7mYqYnpH-g-0n9rwW4AWZx-TKkc=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fas-developers-013613352%2F" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Home</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i> About</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Resume</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i> Portfolio</a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i> Services</a></li>
+        <!-- <li class="dropdown"><a href="#"><i class="bi bi-menu-button navicon"></i> <span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul>
+            <li><a href="#">Dropdown 1</a></li>
+            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+              <ul>
+                <li><a href="#">Deep Dropdown 1</a></li>
+                <li><a href="#">Deep Dropdown 2</a></li>
+                <li><a href="#">Deep Dropdown 3</a></li>
+                <li><a href="#">Deep Dropdown 4</a></li>
+                <li><a href="#">Deep Dropdown 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Dropdown 2</a></li>
+            <li><a href="#">Dropdown 3</a></li>
+            <li><a href="#">Dropdown 4</a></li>
+          </ul>
+        </li> -->
+        <li><a href="#testimonial"><i class="bi bi-chat-left-quote navicon"></i> Testimonials</a></li>
+
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i> Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="https://images.unsplash.com/photo-1556742044-3c52d6e88c62?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" data-aos="fade-in" class="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <h2>Saad Ahmed</h2>
+        <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer">Designer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>This About section aims to provide a comprehensive overview of my professional background, technical expertise, and the value I bring as a web developer. It is designed to introduce visitors to who I am, the skills I possess, the technologies I work with, and the kind of projects I specialize in. Whether you're a potential client, collaborator, or employer, this section serves as an insight into my journey, my approach to development, and my commitment to delivering high-quality digital solutions.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 justify-content-center">
+          <div class="col-lg-5">
+            <img src="https://plus.unsplash.com/premium_photo-1681426687411-21986b0626a8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="img-fluid" alt="" style="height: 510px !important;border: 2px solid white;border-radius: 30px;width: 500px;" >
+          </div>
+          <div class="col-lg-7 content">
+            <h2> Software Developer &amp; Freelancer.</h2>
+            <p class="fst-italic py-3">
+              Hi, I'm Saad Ahmed, a passionate and detail-oriented Full Stack Web Developer dedicated to building clean, responsive, and user-friendly websites. With a strong foundation in HTML, CSS, JavaScript, PHP, and MySQL, I specialize in creating modern web solutions that combine performance with great design. Whether it’s a dynamic website or a custom web application, I always aim to deliver code that not only works — but works beautifully. I'm always eager to learn, grow, and take on new challenges in the tech world.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <script>
+                    function getMyAge(birthYear = 2009) {
+  const today = new Date();
+  const currentYear = today.getFullYear();
+  const currentMonth = today.getMonth(); // May = 4
+  const currentDate = today.getDate();
+
+  // Birthday logic: if today is on or after May 27
+  const hasHadBirthdayThisYear = (currentMonth > 4) || (currentMonth === 4 && currentDate >= 27);
+
+  const age = currentYear - birthYear + (hasHadBirthdayThisYear ? 0 : -1);
+  return age;
+}
+document.addEventListener("DOMContentLoaded", function() {
+  const age = getMyAge();
+  document.getElementById("myAge").textContent = age;
+});
+
+console.log("Current Age:", getMyAge()); // Assuming Saad was born in 2010
+
+                  </script>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>27 May 2009</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>https://github.com/saad/saad-portfolio</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+92 334 0295055</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Karachi, Pakistan</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span id="myAge"></span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Diploma In Software Engineering</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:saadahmedfurrukh9@gmail.com" target="_blank">
+                    saadahmedfurrukh9@gmail.com
+                  </a>
+                  </span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p class="py-3">
+              As I continue to grow and evolve in the world of web development, I remain committed to delivering high-quality solutions, learning new technologies, and pushing creative boundaries. My goal is to not just meet expectations but to exceed them with innovation, precision, and passion. Thank you for taking the time to learn more about me.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="23" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Happy Clients</strong></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="45" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Projects</strong></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="297" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hours Of Support</strong></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item">
+              <i class="bi bi-people"></i>
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p><strong>Hard Workers</strong></p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Skills</h2>
+        <p>This Skills section aims to highlight my core technical competencies and the tools I work with to build efficient, scalable, and user-friendly web applications. It provides a clear overview of the programming languages, frameworks, and technologies I specialize in — showcasing the foundation of my development expertise.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row skills-content skills-animation">
+
+          <div class="col-lg-4">
+
+            <div class="progress">
+              <span class="skill"><span>HTML</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>JavaScript</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Bootstrap</span> <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-4">
+
+            <div class="progress">
+              <span class="skill"><span>.Net Core (Web App)</span> <i class="val">70%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>GitHub</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Flutter(Mobile App)</span> <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>FireBase</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-4">
+
+            <div class="progress">
+              <span class="skill"><span>PHP(Web App)</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>MySQL</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>SQL</span> <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+
+              <div class="progress">
+            <span class="skill"><span>Photoshop</span> <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section><!-- /Skills Section -->
+
+  <!-- Resume Section -->
+<section id="resume" class="resume section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Resume</h2>
+    <p>This section showcases my educational background and professional journey, emphasizing the skills, dedication, and experience I bring to every project. It provides an overview of the milestones that have shaped my career in web development and beyond.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+        <h3 class="resume-title">Summary</h3>
+
+        <div class="resume-item pb-0">
+          <h4>Saad Ahmed Furrukh</h4>
+          <p><em>Passionate and detail-oriented Web Developer with hands-on experience in building responsive, user-focused websites and applications. Skilled in front-end and back-end technologies, driven by a desire to create seamless digital experiences.</em></p>
+          <ul>
+            <li>Karachi, Pakistan</li>
+            <li>+92 334 0295055</li>
+            <li>saadahmedfurrukh9@gmail.com</li>
+          </ul>
+        </div><!-- End Resume Item -->
+
+        <h3 class="resume-title">Education</h3>
+        <div class="resume-item">
+          <h4>Diploma in Software Engineering</h4>
+          <h5>2023 - Present</h5>
+          <p><em>Aptech Learning Computer Education, Karachi</em></p>
+          <p>Currently pursuing a comprehensive 3-year diploma focusing on modern web development, mobile app development, desktop GUI, databases, UI/UX design, and full-stack development technologies.</p>
+        </div><!-- End Resume Item -->
+
+        <div class="resume-item">
+          <h4>Matriculation in Computer Science</h4>
+          <h5>2023 - 2025</h5>
+          <p><em>Board of Intermediate Education, Karachi</em></p>
+          <p>Building strong foundations in computer science, programming logic, and mathematical principles and establishing my way in vocational education alongside my diploma education.</p>
+        </div><!-- End Resume Item -->
+
+      </div>
+
+      <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+        <h3 class="resume-title">Professional Experience</h3>
+
+        <div class="resume-item">
+          <h4>Freelance Web Developer</h4>
+          <h5>2023 - Present</h5>
+          <p><em>Remote / Self-employed</em></p>
+          <ul>
+            <li>Designed and developed responsive websites for clients using HTML, CSS, JavaScript, and PHP.</li>
+            <li>Worked with MySQL databases to build dynamic web apps and admin dashboards.</li>
+            <li>Provided maintenance, bug fixing, and performance improvements for various client projects.</li>
+            <li>Collaborated with local businesses to create professional portfolios and service websites.</li>
+          </ul>
+        </div><!-- End Resume Item -->
+
+        <div class="resume-item">
+          <h4>CEO And Founder Of AS Developers</h4>
+          <h5>2022 - 2023</h5>
+          <p><em>AS Developers, Karachi</em></p>
+          <ul>
+            <li>Played a key role in establishing AS Developers, contributing to the foundation and growth of the company.</li>
+            <li>Developed and launched multiple marketing websites, showcasing strong skills in front-end and back-end development.</li>
+            <li>Collaborated on creating dynamic and user-friendly websites for clients, ensuring a seamless user experience and robust functionality.</li>
+            <li>Gained hands-on experience in handling diverse web development projects, utilizing the latest tools and frameworks to deliver high-quality digital solutions.</li>
+          </ul>
+        </div><!-- End Resume Item -->
+
+      </div>
+
+    </div>
+
+    <!-- Download Resume Button -->
+    <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="300">
+      <a href="assets/resume.pdf" download class="btn btn-primary">
+        <i class="bi bi-download"></i> Download Resume
+      </a>
+    </div>
+
+  </div>
+
+</section><!-- /Resume Section -->
+
+
+<style>
+  /* Portfolio Section Styling */
+.portfolio-content {
+  position: relative;
+  border: 2px solid white;
+  border-radius: 30px;
+  background-color: #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.portfolio-content:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+.portfolio-content img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.portfolio-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.portfolio-content:hover .portfolio-info {
+  opacity: 1;
+}
+
+.portfolio-info h4 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.portfolio-info p {
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.portfolio-info a {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.portfolio-info a:hover {
+  color: #FFD700; /* Gold color for hover effect */
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.05);
+}
+
+.portfolio-item img {
+  border-radius: 30px;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .portfolio-content {
+    border-radius: 20px;
+  }
+
+  .portfolio-info h4 {
+    font-size: 18px;
+  }
+
+  .portfolio-info p {
+    font-size: 12px;
+  }
+}
+
+/* Lightbox and Detail Links */
+.preview-link, .details-link {
+  color: #fff;
+  font-size: 22px;
+  transition: color 0.3s ease;
+}
+
+.preview-link:hover, .details-link:hover {
+  color: #FFD700; /* Gold hover effect */
+}
+
+.preview-link {
+  margin-right: 15px;
+}
+
+/* Responsive Layout Adjustments */
+@media (max-width: 992px) {
+  .portfolio-item {
+    margin-bottom: 20px;
+  }
+
+  .portfolio-content {
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 576px) {
+  .portfolio-info h4 {
+    font-size: 16px;
+  }
+
+  .portfolio-info p {
+    font-size: 10px;
+  }
+
+  .portfolio-info a {
+    font-size: 18px;
+  }
+}
+
+</style>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>This Portfolio section aims to present a curated selection of my recent projects, demonstrating my skills in web development, UI/UX design, and modern tech stacks. Each project showcases my dedication to clean code, responsive design, and delivering real-world digital solutions tailored to client needs.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-web">Web App</li>
+            <!-- <li data-filter=".filter-product">Product</li> -->
+            <li data-filter=".filter-branding">Branding</li>
+            <!-- <li data-filter=".filter-books">Books</li> -->
+          </ul><!-- End Portfolio Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+  
+            <!-- Portfolio Item 1 -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/NGO_thumbnail(revised).png" class="img-fluid" alt="" style="height: 380px;">
+                <div class="portfolio-info">
+                  <p>United Kanadian Foundations Club - Canadian NGO Website  </p>
+                  <a href="assets/img/portfolio/NGO_thumbnail(revised).png"  data-gallery="portfolio-gallery-app" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="https://unitedkanadianfoundationsclub.com/" target="_blank" title="View" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          
+            <!-- Portfolio Item 2 -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-web">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/property_thumbnail(revised).png" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <p>Dimaond Key Properties - Canadian Property Management Website</p>
+                  <a href="assets/img/portfolio/property_thumbnail(revised).png"  data-gallery="portfolio-gallery-product" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="https://diamondkeyproperties.ca/"  target="_blank" title="View" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          
+ <!-- Portfolio Item 4 -->
+ <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+  <div class="portfolio-content h-100">
+    <img src="assets/img/portfolio/airline_thumnail.jpg" class="img-fluid" alt="">
+    <div class="portfolio-info">
+      <p>AS Airlines - Airline Reservation System</p>
+      <a href="assets/img/portfolio/airline_thumnail.jpg" data-gallery="portfolio-gallery-book" class="glightbox preview-link">
+        <i class="bi bi-zoom-in"></i>
+      </a>
+      <a href="https://drive.google.com/file/d/1l1Mdl5-OFIzVJch2TdWGuDp8Z2Z7d65G/view" target="_blank" title="View" class="details-link">
+        <i class="bi bi-link-45deg"></i>
+      </a>
+    </div>
+  </div>
+</div>
+
+            <!-- Portfolio Item 3 -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/logo_new.jpeg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <p>AS Developers - A Global Tech Solution Company</p>
+                  <a href="assets/img/portfolio/logo_new.jpeg"  data-gallery="portfolio-gallery-branding" class="glightbox preview-link">
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+                  <a href="https://saad94451.github.io/asdevelopers/" target="_blank" title="View" class="details-link">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          
+           
+          
+          </div>
+          
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+   <!-- Services Section -->
+<section id="services" class="services section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Our Services</h2>
+    <p>I provide top-notch IT solutions including website design, web and mobile application development, full stack development, desktop applications, UI/UX designing, AI development, and much more. Our aim is to deliver quality work that helps your business grow digitally.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
+        <div class="icon flex-shrink-0"><i class="bi bi-palette"></i></div>
+        <div>
+          <h4 class="title"><a href="#" class="stretched-link">Web Designing</a></h4>
+          <p class="description">Creative and responsive web designs that provide an engaging user experience across all devices.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
+        <div class="icon flex-shrink-0"><i class="bi bi-laptop"></i></div>
+        <div>
+          <h4 class="title"><a href="#" class="stretched-link">Web Development</a></h4>
+          <p class="description">Robust and scalable web development services using the latest technologies to power your online presence.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
+        <div class="icon flex-shrink-0"><i class="bi bi-code-slash"></i></div>
+        <div>
+          <h4 class="title"><a href="#" class="stretched-link">Full Stack Development</a></h4>
+          <p class="description">Complete front-end and back-end solutions, building fully functional and high-performing applications.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
+        <div class="icon flex-shrink-0"><i class="bi bi-phone"></i></div>
+        <div>
+          <h4 class="title"><a href="#" class="stretched-link">Mobile App Development</a></h4>
+          <p class="description">Innovative mobile app solutions for Android and iOS platforms to reach your customers on the go.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
+        <div class="icon flex-shrink-0"><i class="bi bi-window"></i></div>
+        <div>
+          <h4 class="title"><a href="#" class="stretched-link">Desktop GUI Development</a></h4>
+          <p class="description">Powerful and user-friendly desktop applications with modern graphical user interfaces for Windows and other platforms.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
+        <div class="icon flex-shrink-0"><i class="bi bi-brush"></i></div>
+        <div>
+          <h4 class="title"><a href="#" class="stretched-link">UI/UX Design</a></h4>
+          <p class="description">Crafting intuitive user interfaces and memorable user experiences that keep your users engaged and satisfied.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="700">
+        <div class="icon flex-shrink-0"><i class="bi bi-cpu"></i></div>
+        <div>
+          <h4 class="title"><a href="#" class="stretched-link">AI Development</a></h4>
+          <p class="description">Building intelligent AI solutions including chatbots, predictive analytics, and automation tools to enhance your business capabilities.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Services Section -->
+
+
+   <!-- Testimonials Section -->
+<section id="testimonial" class="testimonials section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Testimonials</h2>
+    <p>Hear from my happy clients who trusted us to bring their ideas to life.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+          "breakpoints": {
+            "320": {
+              "slidesPerView": 1,
+              "spaceBetween": 40
+            },
+            "1200": {
+              "slidesPerView": 3,
+              "spaceBetween": 1
+            }
+          }
+        }
+      </script>
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>Working with this team was a fantastic experience! They created a stunning website for my business and exceeded all my expectations. Highly recommended for professional web development services.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/dkp.jpg" class="testimonial-img" alt="">
+            <h3>Diamond Key Properties</h3>
+            <h4>CEO & Founder</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>They turned our app idea into a reality with beautiful design and flawless functionality. The communication throughout the project was smooth and professional.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/icon.jpg" class="testimonial-img" alt="">
+            <h3>Sara Wilsson</h3>
+            <h4>Product Designer</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>From desktop software to mobile apps, they handled everything with exceptional skill. I am very happy with their Full Stack development services. Definitely working with them again!</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/icon.jpg" class="testimonial-img" alt="">
+            <h3>Jena Karlis</h3>
+            <h4>Store Owner</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>Their UI/UX design team gave our brand a completely fresh look. We saw a major increase in customer engagement after our website redesign. Amazing work!</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/ukfc.png" class="testimonial-img" alt="">
+            <h3>UKFC</h3>
+            <h4>CEO & Founder</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>I was truly impressed by their AI development capabilities. They built a chatbot for our website that has helped us serve our customers faster and more efficiently.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/as_developers.jpeg" class="testimonial-img" alt="">
+            <h3>AS Developers</h3>
+            <h4>CEO & Founder</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+
+</section><!-- /Testimonials Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Feel Free To Contact Me At Every Time</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Karachi, Pakistan</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>+92 334 0295055</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>saadahmedfurrukh9@gmail.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d924237.709251401!2d66.49597991311444!3d25.19298371685555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1745848722314!5m2!1sen!2s"  frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="https://formspree.io/f/xrbqbnjv" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+            
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required>
+                </div>
+            
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required>
+                </div>
+            
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required>
+                </div>
+            
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required></textarea>
+                </div>
+            
+                <div class="col-md-12 text-center">
+                  <!-- <div class="loading" style="display: none;">Loading</div> -->
+                  <!-- <div class="error-message" style="display: none;"></div> -->
+                  <div class="sent-message" style="display: none;">Your message has been sent. Thank you!</div>
+            
+                  <button type="submit" onclick="submit()">Send Message</button>
+                </div>
+            
+              </div>
+            </form>
+            
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename"><script>const year = new Date().getFullYear();
+          document.write(year); // Example output: 2025
+          </script></strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="#">Saad Ahmed</a> Distributed by <a href="https://saad94451.github.io/asdevelopers/">AS Developers</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script>
+  submit()
+  {
+    document.getElementsByClassName("sent-message")[0].style.display = "block";
+
+  }
+</script>
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
